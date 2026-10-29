@@ -73,7 +73,7 @@
 #### 安装步骤
 
 1. 克隆项目
-   git clone https://github.com/your-username/house_check.git
+   git clone https://github.com/jamesyang-2024/house_check.git
    cd house_check
 
 2. 安装依赖
@@ -182,7 +182,7 @@ A cross-platform Flutter application designed for house inspection, property pat
 #### Installation
 
 1. Clone the repository
-   git clone https://github.com/your-username/house_check.git
+   git clone https://github.com/jamesyang-2024/house_check.git
    cd house_check
 
 2. Install dependencies
