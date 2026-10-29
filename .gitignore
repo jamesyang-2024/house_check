@@ -43,3 +43,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# 忽略签名文件和密码配置
+*.jks
+*.keystore
+key.properties
+android/build/
