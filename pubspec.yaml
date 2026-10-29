@@ -1,0 +1,41 @@
+name: myflutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+  image: ^4.2.0
+  mobile_scanner: ^5.2.3
+  qr_flutter: ^4.1.0
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+  bigdatacloud_reverse_geocode_client: ^1.0.2
+  http: ^1.2.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  image: ^4.2.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/simhei.ttf
+    - assets/icon/app_icon.png
+
+# ===== 顶格写，和 flutter 同级 =====
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#1976D2"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
